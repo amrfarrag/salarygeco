@@ -32,6 +32,7 @@ namespace SalaryGeco.Controllers
         {
 
         }
+        public bool
         
         protected override void Dispose(bool disposing)
         {
