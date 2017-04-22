@@ -17,9 +17,10 @@ namespace SalaryGeco.Controllers
         SalaryContext ctx = new SalaryContext();
         [ResponseType(typeof(List<Project>))]
         [HttpGet]
-        public async Task<IHttpActionResult> GetAllProjects()
+        public async Task<IHttpActionResult> Read()
         {
-            return Ok(await ctx.Projects.ToListAsync());
+            var data = ctx.Projects.ToListAsync();
+            return Ok(data);
         }
         [ResponseType(typeof(Project))]
         [HttpGet]
@@ -28,11 +29,7 @@ namespace SalaryGeco.Controllers
         {
             return Ok(await ctx.Projects.FindAsync(id));
         }
-        public bool PostProject()
-        {
-
-        }
-        public bool
+      
         
         protected override void Dispose(bool disposing)
         {

@@ -17,6 +17,7 @@ namespace SalaryGeco
         {
             // Code that runs on application startup
             Database.SetInitializer<SalaryGeco.Models.SalaryContext>(new SalaryGeco.Models.SalaryDBInit());
+
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             RouteConfig.RegisterRoutes(RouteTable.Routes);            
