@@ -34,7 +34,7 @@ namespace DAL
             GC.SuppressFinalize(this);
         }
 
-        public TEntity Get(int id)
+        public TEntity Read(int id)
         {
             return table.Find(id);
         }

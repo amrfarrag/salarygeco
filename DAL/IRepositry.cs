@@ -9,7 +9,7 @@ namespace DAL
    public interface IRepositry<TEntity> : IDisposable
     {
         IQueryable<TEntity> GetAll();
-        TEntity Get(int id );
+        TEntity Read(int id );
         void Delete(TEntity entity);
         void Update(TEntity entity);
         void Create(TEntity entity);

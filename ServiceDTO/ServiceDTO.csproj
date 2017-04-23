@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3C71A523-AA1D-4517-B10A-4AA48AB5751C}</ProjectGuid>
+    <ProjectGuid>{E22D0B78-4C55-4C4E-BBCF-1C8DD5F94736}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BusinsesServiceDTO</RootNamespace>
-    <AssemblyName>BusinsesServiceDTO</AssemblyName>
+    <RootNamespace>ServiceDTO</RootNamespace>
+    <AssemblyName>ServiceDTO</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
