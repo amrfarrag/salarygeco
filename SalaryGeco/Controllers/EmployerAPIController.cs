@@ -7,7 +7,7 @@ using System.Web.Http;
 
 namespace SalaryGeco.Controllers
 {
-    public class EmployerController : ApiController
+    public class EmployerAPIController : ApiController
     {
     }
 }
